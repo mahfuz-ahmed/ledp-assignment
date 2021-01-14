@@ -1,0 +1,41 @@
+nav{
+	height: 70px;
+	display: flex;
+	background-color: gray;
+	justify-content:space-between;
+	align-items: center;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+.main li a{
+	font-size: 30px;
+	color: white;
+	margin-left: 20px;
+}
+.last{
+	display: flex;
+}
+
+.last li a{
+	font-weight:bold;
+	padding: 15px;
+	background-color: yellow;
+	border: 2px solid #808080;
+	border-radius: 5px;
+}
+
+.last li a:hover{
+	transition: .5s ease-out;
+	border-bottom:3px solid white;
+	color: white;
+	background-color: red;
+
+}

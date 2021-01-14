@@ -1,0 +1,59 @@
+.green{
+	width: 700px;
+	height: 400px;
+	background-color: green;
+	overflow: hidden;
+	margin: auto;
+}
+
+.red{
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 40px;
+	border: 1px solid black;
+	box-shadow: 0px 4px 16px 9px;
+	transition: 2s;
+}
+
+.green:hover .red{
+	/*display: none;*/
+	background-color: yellow;	
+}
+h1{
+	text-align: center;
+}
+.brazil-green{
+	background: green;
+	height: 276px;
+    width: 576px;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 50px;
+
+}
+
+#dimond{
+    width: 0px;
+    height: 0px;
+    border: 125px solid transparent;
+    border-bottom: 69px solid yellow;
+    position: relative;
+    top: -75px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+#dimond:after{
+	content: '';
+    position: absolute;
+    left: -127px;
+    top: 69px;
+    width: 0px;
+    height: 0px;
+    border: 126px solid transparent;
+    border-top: 69px solid yellow;
+}

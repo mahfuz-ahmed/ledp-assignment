@@ -1,0 +1,32 @@
+
+.head{font-style: italic;
+	  text-align: center;
+	  color: blue;
+
+}
+
+#lastname{
+
+	margin-top: 10px;
+}
+
+#email{
+
+	margin-top: 10px;
+}
+
+#pass{
+
+	margin-top: 10px;
+}
+
+#date{
+
+	margin-bottom: 10px;
+}
+
+#button{
+
+	margin-top: 10px;
+}
+
